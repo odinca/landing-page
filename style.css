@@ -8,17 +8,22 @@
     background-color: darkgrey;
 }
 
-a {
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+a,
+.text,
+h1 {
     text-decoration: none;
     color: #E5E7EB;
     font-family: sans-serif;
 }
 
 .header {
-    display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    background-color: #1f2937;
 }
 
 li {
@@ -29,4 +34,39 @@ ul {
     display: flex;
     gap: 30px;
     padding: 0;
+}
+
+p {
+    flex-wrap: wrap;
+    font-size: 18px;
+}
+
+.header,
+.section-1 {
+    display: flex;
+    background-color: #1f2937;
+
+}
+
+.party-image {
+    width: 500px;
+    height: auto;
+    flex-grow: 0;
+}
+
+.section-1 {
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
 }
