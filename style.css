@@ -122,3 +122,11 @@ h1 {
  .s2-header {
     margin: 30px 0px 30px 0px;
  }
+
+ .section-3 {
+    height: 300px;
+ }
+
+ .s3-text {
+    width: 500px;
+ }
