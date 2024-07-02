@@ -18,7 +18,8 @@ a,
 .text,
 h1,
 h2,
-.blue-link {
+.blue-link,
+.s4-header {
     text-decoration: none;
     color: #E5E7EB;
     font-family: sans-serif;
@@ -84,7 +85,8 @@ h1 {
     flex-direction: column;
 }
 
-.blue-link {
+.blue-link,
+.blue-section a {
     display: flex;
     align-items: center;
     align-self: flex-start;
@@ -145,4 +147,36 @@ h1 {
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 100px;
+ }
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .blue-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 100px 200px 100px 200px;
+    padding: 30px 70px 30px 70px;
+ }
+
+ .s4-text {
+    color: #d6e7ff;
+ }
+
+ .s4-header {
+    font-weight: bold;
+ }
+
+ .sign-up {
+    align-self: center;
+    text-align: center;
+    width: 111px;
+    height: auto;
+    border: 2px solid white;
  }
